@@ -33,9 +33,12 @@ audio = AudioOut(board.SPEAKER)
 sine_wave_sample = RawSample(sine_wave)
  
 
- 
+# Configure the soil sensor 
 ss = Seesaw(i2c_bus, addr=0x36)
 
+# This values need to be caligrated with the soil sensor
+# The values below is what I got while testing the setup
+# with dry dirt and wet dirt
 cap_dry = 500
 cap_wet = 900
 
@@ -80,7 +83,7 @@ while True:
                 previous_resul = dry
                 audio.play(sine_wave_sample, loop=True)  # keep playing the sample over and over
                 time.sleep(1)  # until...
-                audio.stop()  # we tell the board to sto
+                audio.stop()   # we tell the board to stop
 
         elif result == wet:
             previous_resul = wet

@@ -1,5 +1,8 @@
 # Soil Moisture Sensor with the Circuit Playground Express board
 
+This is a simple soil sensor setup using the Adafruit Circuit Playground Express board and 
+the Adafruit STEMMA Soil Sensor. The code is written in Circuit Python.
+
 ## Parts
 * [Adafruit Circuit Plaground Express](https://www.adafruit.com/product/3333)
 * [Adafruit STEMMA Soil Sensor - I2C Capacitive Moisture Sensor](https://www.adafruit.com/product/4026)
