@@ -11,3 +11,6 @@ the Adafruit STEMMA Soil Sensor. The code is written in Circuit Python.
 
 ## Wiring
 ![Soil Sensor](./diagrams/soil_sensor_image.png)
+
+## Soil Moisture Sensor in Action 
+![Soil Sensor](./images/SoilSensor1.jpg)
